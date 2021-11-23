@@ -1,0 +1,767 @@
+.hero-wrapper {
+  height: 1200px;
+  background: url(../../assets/images/hero-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-left: 5%;
+}
+
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.hero-left {
+  /* border: 2px solid red; */
+  padding: 4rem 0;
+  margin-right: 5rem;
+}
+
+.hero-left,
+.hero-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.hero-right {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  overflow: hidden;
+  margin-right: -50px;
+}
+
+.hero-right .row:nth-child(1),
+.hero-right .row:nth-child(3) {
+  height: 80%;
+}
+.hero-right .swiper-container:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.hero-right .swiper-container {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+.hero-right .swiper-container .swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+
+.hero-right .swiper-container:nth-child(1),
+.hero-right .swiper-container:nth-child(3) {
+  max-height: 85%;
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  position: relative;
+}
+
+.hero-right img {
+  width: 100%;
+}
+
+.timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.time-wrap:not(:last-child) {
+  margin-right: 1.5rem;
+}
+.timer-dot {
+  margin-right: 1.5rem;
+}
+.time-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.timer-number {
+  line-height: 0.8;
+  height: 100px;
+  -webkit-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+  width: 110px;
+  margin-bottom: 0.8rem;
+}
+
+.timer-dot {
+  width: 18px;
+  height: 22px;
+  background-color: var(--pink);
+  margin-bottom: 3rem;
+}
+
+.hero-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero-btns button:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.hero-btns button {
+  width: clamp(148px, 15.416666666666666vw, 222px);
+  height: clamp(48px, 5vw, 72px);
+}
+
+.hero-input {
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #d8d8d8;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.hero-dropdown {
+  padding: 0 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  gap: 0.5rem;
+  /* border: 2px solid red; */
+}
+.arrow {
+  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.input-btn {
+  background: #fe9ec4;
+  border-radius: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+/* welcome-wrapper STARTS ============================= */
+.welcome-wrapper {
+  background: url(../../assets/images/bg-2.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.welcome {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.welcome-left {
+  margin-right: 6rem;
+}
+.welcome-left,
+.welcome-right {
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.welcome-left img {
+  width: 100%;
+}
+
+.welcome-cat-responsive {
+  display: none;
+}
+/* welcome-wrapper ENDS ============================= */
+
+/* our-team-wrapper STARTS */
+.our-team-wrapper {
+  background: url(../../assets/images/big-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.moon {
+  position: absolute;
+  top: -150px;
+  left: 20px;
+  width: clamp(137px, 20.833333333333332vw, 300px);
+}
+
+.slider-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.slider-btns button:first-child {
+  margin-right: 24px;
+}
+.slider-btns button {
+  width: 60px;
+  height: 60px;
+
+  display: -webkit-box;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border: 1px solid #04060f;
+  color: #04060f;
+  border-radius: 50%;
+  font-size: 1.5rem;
+}
+
+.accordions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.accordion:not(:last-child) {
+  margin-bottom: 18px;
+}
+/* our-team-wrapper ENDS */
+
+/* ROADMAP STARTS */
+.roadmap-wrapper {
+  background: url(../../assets/images/roadmap-bg.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.roadmap-content {
+  height: 1250px;
+  position: relative;
+  width: 0;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  width: 58px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: transparent;
+
+  margin-bottom: 100px;
+}
+.roadmap-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 0;
+  height: 100%;
+  border: 3px dashed #04060f;
+  z-index: -1;
+}
+.roadmap-box {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  /* background-color: red; */
+  position: relative;
+}
+
+.roadmap-box-content {
+  position: absolute;
+  top: 50%;
+
+  -webkit-transform: translateY(-50%);
+
+  -ms-transform: translateY(-50%);
+
+  transform: translateY(-50%);
+  width: 620px;
+  /* height: 198px; */
+  padding: 36px;
+
+  border-radius: 30px;
+
+  overflow: hidden;
+}
+
+.roadmap-box-content.left {
+  right: 150%;
+}
+.roadmap-box-content.right {
+  left: 150%;
+}
+
+.roadmap-box-content::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* background-color: red; */
+  background: #d0a9e8;
+  opacity: 0.18;
+  -webkit-backdrop-filter: blur(100px);
+  backdrop-filter: blur(100px);
+  z-index: -1;
+}
+.roadmap-box.bot {
+  position: sticky;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  bottom: 0;
+  left: 0;
+  background-color: transparent;
+  z-index: 100000;
+}
+.bottle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+
+  width: 57.39px;
+  height: 148px;
+}
+
+.milk {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 60%;
+  /* height: 80px; */
+  height: 10px;
+  max-height: 80px;
+  background-color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 20px;
+
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 20px;
+
+  border: 2px solid #3f2409;
+
+  -webkit-transition: all 0.2s ease;
+
+  -o-transition: all 0.2s ease;
+
+  transition: all 0.2s ease;
+}
+
+/* ROADMAP ENDS */
+
+@media (max-width: 1400px) {
+  .roadmap-box-content {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .moon {
+    top: -100px;
+  }
+
+  .roadmap {
+    padding-bottom: 180px;
+  }
+
+  .roadmap-box-content {
+    width: 300px;
+    padding: 25px;
+  }
+
+  .hero-wrapper {
+    height: auto;
+    padding-top: 30px;
+    /* margin-bottom: 100px; */
+  }
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .hero-left {
+    padding-right: 5rem;
+    margin-right: 0;
+  }
+
+  .hero-right {
+    margin-right: 0;
+    margin-right: 5%;
+    max-height: 700px;
+  }
+
+  .hero-right .row:nth-child(1),
+  .hero-right .row:nth-child(3) {
+    height: 500px !important;
+  }
+
+  .hero-right .row .swiper-container {
+    height: 100%;
+  }
+  .hero-right .row img {
+    width: 100%;
+  }
+
+  .title-effect {
+    display: none;
+  }
+
+  .timer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .time-wrap:not(:last-child) {
+    margin-right: 1rem;
+  }
+  .timer-dot {
+    margin-right: 1rem;
+  }
+
+  .timer-number {
+    height: 65px;
+    width: 60px;
+    margin-bottom: 0.5rem;
+  }
+
+  .timer-dot {
+    width: 13px;
+    height: 16px;
+    background-color: var(--pink);
+    margin-bottom: 2rem;
+  }
+
+  .welcome {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+  }
+  .welcome-left {
+    margin-right: 0;
+  }
+  .welcome-left,
+  .welcome-right {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+  .welcome-left img {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .welcome-cat-responsive {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .welcome-right p:nth-child(1) {
+    display: none;
+  }
+
+  .roadmap-content {
+    height: auto;
+    margin-bottom: 100px;
+    width: 100%;
+
+    -webkit-box-pack: unset;
+
+    -ms-flex-pack: unset;
+
+    justify-content: unset;
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+  }
+
+  .roadmap-box:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  .roadmap-box {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+
+  .roadmap-box:not(:first-child) {
+    /* border: 2px solid blue; */
+    padding-left: 5rem;
+  }
+
+  .roadmap-box-content {
+    position: static;
+
+    width: 100%;
+    padding: 30px;
+
+    -webkit-transform: none;
+
+    -ms-transform: none;
+
+    transform: none;
+    z-index: 100000 !important;
+    background: #d0a9e83f;
+  }
+
+  .roadmap-box-content::before {
+    display: none;
+  }
+
+  .roadmap-content::before {
+    left: 30px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .bottle {
+    position: absolute;
+    top: 100%;
+    left: 3px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+
+    width: 57.39px;
+    height: 148px;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-left {
+    text-align: center;
+    padding-right: 7%;
+
+    -webkit-box-align: center;
+
+    -ms-flex-align: center;
+
+    align-items: center;
+  }
+
+  .timer {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .hero-btns {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .hero-right {
+    max-height: 300px;
+  }
+
+  .hero-right .row:nth-child(1),
+  .hero-right .row:nth-child(3) {
+    height: 250px !important;
+  }
+
+  .roadmap-box-content {
+    padding: 30px 18px;
+    border-radius: 24px;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  .roadmap-box {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+  }
+
+  .roadmap-box:not(:first-child) {
+    /* border: 2px solid blue; */
+    padding-left: 3rem;
+  }
+
+  .roadmap-content::before {
+    left: 10px;
+    -webkit-transform: none;
+    -ms-transform: none;
+    transform: none;
+  }
+
+  .bottle {
+    width: 45px;
+    height: 135px;
+    left: -10px;
+  }
+
+  .bottle svg {
+    width: 100%;
+  }
+
+  /*  */
+  /*  */
+  /*  */
+
+  .hero-input {
+    -webkit-box-align: unset;
+    -ms-flex-align: unset;
+    align-items: unset;
+    -webkit-box-pack: unset;
+    -ms-flex-pack: unset;
+    justify-content: unset;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .hero-dropdown {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+
+  .input-btn {
+    width: 100%;
+  }
+
+  .milk {
+    max-height: 60px;
+  }
+
+  .roadmap {
+    padding-bottom: 150px;
+  }
+
+  .moon {
+    top: -80px;
+  }
+
+  .our-team-wrapper {
+    padding-top: 30px;
+  }
+}
