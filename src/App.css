@@ -8,6 +8,13 @@
   font-family: "Montserrat", sans-serif;
 }
 
+
+@font-face {
+  font-family:Custom-Font;
+  src: url("/src/fonts/POPPINS-BLACK.TTF");
+}
+
+
 .montserrat {
   font-family: "Montserrat", sans-serif !important;
 }
@@ -411,7 +418,7 @@ z-index: 1111;
 .text_animation{
  animation: fadeOut 1.5s forwards;
  animation-delay: 3s;
- /* font-family: Custom-Font !important; */
+ font-family: Custom-Font !important;
 }
 
 @keyframes fadeOut {
