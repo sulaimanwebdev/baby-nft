@@ -52,7 +52,7 @@ function Home() {
               </span>{" "}
               <span
                 className="teko"
-                style={{ position: "relative", zIndex: 100000 }}
+                style={{ position: "relative", zIndex: 10 }}
               >
                 to the <br /> BabyBoom Club
               </span>
